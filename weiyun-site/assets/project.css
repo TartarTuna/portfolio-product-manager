@@ -297,6 +297,37 @@
 .pp-next-card:hover .pp-next-card__arrow { transform: translateX(4px); }
 
 /* =====================================================
+ * Lightweight product showcase — stacked visual cards
+ * (used by: InteMeta)
+ * ===================================================== */
+.pp-showcase {
+  max-width: 900px;
+  margin: 0 auto 56px;
+}
+.pp-showcase__intro {
+  max-width: 820px;
+  margin: 0 auto 28px;
+}
+.pp-showcase__intro h2 { margin-top: 0; }
+.pp-showcase__stack {
+  max-width: 720px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Compact variant of pp-visual — for methodology/inline figures */
+.pp-visual--compact {
+  max-width: 720px;
+  margin: 24px auto 0;
+}
+.pp-visual--compact figcaption {
+  font-size: 12px;
+  padding: 12px 16px;
+}
+
+/* =====================================================
  * UI Showcase — dual-audience product walkthrough
  * (used by: OneAnswer)
  * ===================================================== */
