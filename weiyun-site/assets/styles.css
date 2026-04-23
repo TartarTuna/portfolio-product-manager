@@ -312,6 +312,7 @@ body::after {
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+  padding-right: 0.15em;
 }
 .hero__tagline {
   font-size: clamp(16px, 1.4vw, 18px);
@@ -709,6 +710,8 @@ body::after {
   background-clip: text;
   color: transparent;
   font-style: italic;
+  padding-right: 0.15em;
+  display: inline-block;
 }
 .contact-card p {
   font-size: 16px;
