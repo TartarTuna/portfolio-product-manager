@@ -388,6 +388,17 @@ body::after {
   border-radius: 50%;
   box-shadow: 0 0 0 4px rgba(18, 163, 160, 0.2);
 }
+.hero__sticker--alt {
+  top: auto;
+  right: auto;
+  bottom: 24px;
+  left: -16px;
+  animation-delay: 2s;
+}
+.hero__sticker--alt .dot {
+  background: var(--c-purple);
+  box-shadow: 0 0 0 4px rgba(117, 51, 183, 0.2);
+}
 @keyframes float {
   0%, 100% { transform: translateY(0); }
   50% { transform: translateY(-8px); }
@@ -485,11 +496,25 @@ body::after {
   position: relative;
 }
 .t-item__when {
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 600;
   color: var(--c-purple);
-  text-align: right;
+  text-align: center;
   padding-top: 4px;
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+.t-item__when span {
+  display: block;
+  white-space: nowrap;
+}
+.t-item__when-sep {
+  font-size: 11px;
+  opacity: 0.4;
+  line-height: 1;
 }
 .t-item__dot {
   position: absolute;
@@ -804,6 +829,12 @@ body::after {
     bottom: 8px;
     padding: 8px 14px;
     font-size: 12px;
+  }
+  .hero__sticker--alt {
+    top: 8px;
+    right: auto;
+    bottom: auto;
+    left: -4px;
   }
 }
 
