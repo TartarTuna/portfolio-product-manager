@@ -17,7 +17,7 @@ weiyun-site/
     ├── jingchi/index.html        君綺醫美開單系統
     ├── oneanswer/index.html      OneAnswer 解題 APP
     ├── intemeta/index.html       InteMeta 元宇宙活動平台
-    └── qubby/index.html          Qubby 線上購課平台
+    └── oneclassnow/index.html    OneClass Now 線上購課平台
 ```
 
 ## 配色
