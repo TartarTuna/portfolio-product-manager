@@ -518,7 +518,7 @@ body::after {
 }
 .t-item__dot {
   position: absolute;
-  left: 102px;
+  left: 93px;
   top: 28px;
   width: 14px;
   height: 14px;
@@ -817,10 +817,10 @@ body::after {
   .projects-grid { grid-template-columns: 1fr; }
   .skills-grid { grid-template-columns: 1fr; }
   .contact-card { padding: 32px 24px; }
-  .timeline::before { left: 72px; }
-  .t-item { grid-template-columns: 64px 1fr; gap: 20px; }
-  .t-item__dot { left: 66px; }
-  .t-item__body { padding-left: 20px; }
+  .timeline::before { left: 84px; }
+  .t-item { grid-template-columns: 64px 1fr; gap: 24px; }
+  .t-item__dot { left: 69px; }
+  .t-item__body { padding-left: 12px; }
   .t-item__when { font-size: 12px; }
   .hero__ctas .btn { flex: 1; justify-content: center; }
   .hero__sticker {
