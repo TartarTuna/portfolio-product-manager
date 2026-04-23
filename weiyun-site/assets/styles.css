@@ -798,7 +798,13 @@ body::after {
   .t-item__body { padding-left: 20px; }
   .t-item__when { font-size: 12px; }
   .hero__ctas .btn { flex: 1; justify-content: center; }
-  .hero__sticker { right: auto; left: 50%; transform: translateX(-50%); }
+  .hero__sticker {
+    top: auto;
+    right: -4px;
+    bottom: 8px;
+    padding: 8px 14px;
+    font-size: 12px;
+  }
 }
 
 /* ---------- Lang Toggle Body State ---------- */
